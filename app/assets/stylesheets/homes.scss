@@ -1,3 +1,47 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 33px;
+  line-height: 18px;
+  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.title {
+  font-weigth: bold;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  font-size: 2em;
+  display: block;
+}
+
+strong {
+  font-weigth: bold;
+}
+
+.comment {
+  margin: 33px;
+  line-height: 18px;
+  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.link:visited {
+  color: #666;
+}
+.link:hover {
+  background-color: #000;
+  color: #fff;
+}
